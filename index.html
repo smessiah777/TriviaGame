@@ -4,19 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Black Jack Johnson Trivia</title>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:900"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/boxing-glove.png"
+      type="image/png"
+    />
+
+    <title>Jack Johnson Trivia Game</title>
   </head>
   <body>
-    <section id="#" class="game-section">
-      <div class="video-container">
-        <div class="full-screen-video-container">
-          <video src="" autoplay="true" loop="true" controls muted></video>
-        </div>
-      </div>
-      <div class="game-container">
-        <h1>Black Jack Johnson Trivia</h1>
+    <section class="video-bg ">
+      <video
+        src="./assets/video/jjHD.mp4"
+        autoplay="true"
+        loop="true"
+        muted
+      ></video>
 
-        <button id="start-game">START</button>
+      <div class="game-container">
+        <h1 id="main-title">Jack Johnson Trivia</h1>
+        <div id="boxing-glove-container">
+          <img
+            id="glove"
+            class="pulse"
+            src="./assets/images/boxing-glove.png"
+            alt=""
+          />
+        </div>
       </div>
     </section>
   </body>
