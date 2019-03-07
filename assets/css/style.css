@@ -19,6 +19,7 @@
   max-width: 960px;
   padding: 20px;
   left: 20%;
+  border: 2.5px solid black;
   z-index: 5;
 }
 
@@ -33,7 +34,7 @@
 #boxing-glove-container {
   display: flex;
   justify-content: center;
-  margin: 100px 0 0 0;
+  margin: 80px 0 10px 0;
 }
 
 #glove {
@@ -41,7 +42,7 @@
 }
 
 #glove:hover {
-  border: 10px solid #ffff;
+  border: 10px solid rgb(168, 162, 162);
 }
 
 /* animation */
@@ -49,7 +50,7 @@
 .pulse {
   animation-name: pulse_animation;
   animation-duration: 5000ms;
-  transform-origin: 70% 70%;
+  transform-origin: 50% 50%;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
