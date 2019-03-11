@@ -2,19 +2,23 @@
   box-sizing: border-box;
 }
 
+body {
+  /* overflow: hidden; */
+}
 .video-bg {
   position: relative;
   display: flex;
   align-items: center;
   height: 100vh;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  overflow: hidden;
 }
 
 .game-container {
   position: absolute;
   background-image: url(../images/black-and-white-dark-marble-908283.jpg);
   background-color: black;
-  height: auto;
+  height: 100vh;
   width: 100%;
   max-width: 960px;
   padding: 20px;
@@ -43,6 +47,29 @@
 
 #glove:hover {
   border: 10px solid rgb(168, 162, 162);
+}
+
+#timer {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 80px;
+  color: #cb000c;
+  -webkit-text-stroke: 2.5px rgb(10, 10, 10);
+  float: right;
+  visibility: hidden;
+}
+
+#game-content {
+  display: flex;
+  justify-content: center;
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 80px;
+  color: #cb000c;
+  -webkit-text-stroke: 2.5px rgb(10, 10, 10);
+
+  text-align: center;
+}
+
+.trivia-question {
 }
 
 /* animation */
